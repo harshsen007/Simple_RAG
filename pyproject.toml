@@ -1,0 +1,12 @@
+[project]
+name = "simple-rag"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastembed>=0.9.1",
+    "openai>=3.40.0",
+    "pypdf>=6.21.3",
+    "python-docx>=1.2.0",
+    "python-dotenv>=1.2.4",
+    "qdrant-client>=1.20.0",
+]
